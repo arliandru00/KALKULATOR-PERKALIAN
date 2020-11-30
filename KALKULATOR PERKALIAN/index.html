@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PERKALIAN</title>
+	<script src="jquery.js"></script>
+</head>
+<center>
+<body bgcolor="orange">
+	<h2>KALKULATOR PERKALIAN SEDERHANA</h2> <br>
+<input class="panjang" type="number"> <br> <center>	<h2>X</h2></center> <br>
+<input class="lebar" type="number"><br> = <h3>hasil...</h3>
+<button class="hitung">Hitung</button>
+<script type="text/javascript">
+	$('.hitung').click(function(){
+		$('h3').text( $('.panjang').val() * $('.lebar').val())
+	})
+</script>
+</center>
+</body>	
+</html>
